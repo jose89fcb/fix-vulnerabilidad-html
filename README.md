@@ -1,7 +1,9 @@
 De está forma quitaremos la vulnerabilidad html de un formulario:
 <br>
 Añadiendo htmlentities(variable)
+<br>
 arreglaremos(FIX)
+<br>
 Al añadir un codigo html en nuestro formulario
 <br>
 error_reporting(0); echo htmlentities($_GET["txt"]);
